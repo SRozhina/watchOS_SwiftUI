@@ -16,6 +16,8 @@
 		C34895E72538CFE90051EF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34895E62538CFE90051EF01 /* Assets.xcassets */; };
 		C34895EA2538CFE90051EF01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34895E92538CFE90051EF01 /* Preview Assets.xcassets */; };
 		C34895FD2538D0970051EF01 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34895FC2538D0970051EF01 /* Note.swift */; };
+		C348960A253EEC400051EF01 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3489609253EEC400051EF01 /* DetailView.swift */; };
+		C348960F253EF14F0051EF01 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348960E253EF14F0051EF01 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		C34895E92538CFE90051EF01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C34895EB2538CFE90051EF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34895FC2538D0970051EF01 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		C3489609253EEC400051EF01 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C348960E253EF14F0051EF01 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +122,14 @@
 			isa = PBXGroup;
 			children = (
 				C34895E02538CFE30051EF01 /* ContentView.swift */,
+				C348960E253EF14F0051EF01 /* InfoView.swift */,
 				C34895E22538CFE30051EF01 /* Project1App.swift */,
 				C34895E42538CFE30051EF01 /* ComplicationController.swift */,
 				C34895E62538CFE90051EF01 /* Assets.xcassets */,
 				C34895EB2538CFE90051EF01 /* Info.plist */,
 				C34895E82538CFE90051EF01 /* Preview Content */,
 				C34895FC2538D0970051EF01 /* Note.swift */,
+				C3489609253EEC400051EF01 /* DetailView.swift */,
 			);
 			path = "Project1 WatchKit Extension";
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 				C34895E12538CFE30051EF01 /* ContentView.swift in Sources */,
 				C34895E32538CFE30051EF01 /* Project1App.swift in Sources */,
 				C34895E52538CFE30051EF01 /* ComplicationController.swift in Sources */,
+				C348960A253EEC400051EF01 /* DetailView.swift in Sources */,
+				C348960F253EF14F0051EF01 /* InfoView.swift in Sources */,
 				C34895FD2538D0970051EF01 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

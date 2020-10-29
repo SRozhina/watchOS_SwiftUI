@@ -7,11 +7,12 @@
 
 import Foundation
 
+// this is the viewModel for the game view that is inside of ContentView.Swift
 class RockPaperScissorsViewModel: ObservableObject {
     @Published var gameModel = RockPaperScissorsModel()
     
     
-    // access to the model
+    // MARK: - Access to the model
     
     var level: Int {
         return gameModel.level
@@ -33,7 +34,8 @@ class RockPaperScissorsViewModel: ObservableObject {
     var title: String {
         return gameModel.title
     }
-    // intents
+    
+    // MARK: - Intents
     
     func select(move: String) {
         gameModel.select(move: move)

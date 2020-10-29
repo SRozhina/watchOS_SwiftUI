@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3C36044254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3C36043254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3C36049254B1F1000D8AB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C36048254B1F1000D8AB6E /* Assets.xcassets */; };
+		C3C36050254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3C3604F254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3C36055254B1F1100D8AB6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C36054254B1F1100D8AB6E /* ContentView.swift */; };
+		C3C36057254B1F1100D8AB6E /* CurrencyConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C36056254B1F1100D8AB6E /* CurrencyConverterApp.swift */; };
+		C3C36059254B1F1100D8AB6E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C36058254B1F1100D8AB6E /* ComplicationController.swift */; };
+		C3C3605B254B1F1200D8AB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C3605A254B1F1200D8AB6E /* Assets.xcassets */; };
+		C3C3605E254B1F1200D8AB6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C3605D254B1F1200D8AB6E /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3C36045254B1F0B00D8AB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3C36039254B1F0B00D8AB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C36042254B1F0B00D8AB6E;
+			remoteInfo = "CurrencyConverter WatchKit App";
+		};
+		C3C36051254B1F1100D8AB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3C36039254B1F0B00D8AB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3C3604E254B1F1100D8AB6E;
+			remoteInfo = "CurrencyConverter WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3C36065254B1F1200D8AB6E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3C36050254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C36069254B1F1200D8AB6E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C3C36044254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3C3603F254B1F0B00D8AB6E /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C36043254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CurrencyConverter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C36048254B1F1000D8AB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3C3604A254B1F1000D8AB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3C3604F254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CurrencyConverter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C36054254B1F1100D8AB6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3C36056254B1F1100D8AB6E /* CurrencyConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterApp.swift; sourceTree = "<group>"; };
+		C3C36058254B1F1100D8AB6E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C3C3605A254B1F1200D8AB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3C3605D254B1F1200D8AB6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3C3605F254B1F1200D8AB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3C3604C254B1F1100D8AB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3C36038254B1F0B00D8AB6E = {
+			isa = PBXGroup;
+			children = (
+				C3C36047254B1F0B00D8AB6E /* CurrencyConverter WatchKit App */,
+				C3C36053254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension */,
+				C3C36040254B1F0B00D8AB6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3C36040254B1F0B00D8AB6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3C3603F254B1F0B00D8AB6E /* CurrencyConverter.app */,
+				C3C36043254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app */,
+				C3C3604F254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3C36047254B1F0B00D8AB6E /* CurrencyConverter WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C3C36048254B1F1000D8AB6E /* Assets.xcassets */,
+				C3C3604A254B1F1000D8AB6E /* Info.plist */,
+			);
+			path = "CurrencyConverter WatchKit App";
+			sourceTree = "<group>";
+		};
+		C3C36053254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C3C36054254B1F1100D8AB6E /* ContentView.swift */,
+				C3C36056254B1F1100D8AB6E /* CurrencyConverterApp.swift */,
+				C3C36058254B1F1100D8AB6E /* ComplicationController.swift */,
+				C3C3605A254B1F1200D8AB6E /* Assets.xcassets */,
+				C3C3605F254B1F1200D8AB6E /* Info.plist */,
+				C3C3605C254B1F1200D8AB6E /* Preview Content */,
+			);
+			path = "CurrencyConverter WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C3C3605C254B1F1200D8AB6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3C3605D254B1F1200D8AB6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3C3603E254B1F0B00D8AB6E /* CurrencyConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C3606A254B1F1200D8AB6E /* Build configuration list for PBXNativeTarget "CurrencyConverter" */;
+			buildPhases = (
+				C3C3603D254B1F0B00D8AB6E /* Resources */,
+				C3C36069254B1F1200D8AB6E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C36046254B1F0B00D8AB6E /* PBXTargetDependency */,
+			);
+			name = CurrencyConverter;
+			productName = CurrencyConverter;
+			productReference = C3C3603F254B1F0B00D8AB6E /* CurrencyConverter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C3C36042254B1F0B00D8AB6E /* CurrencyConverter WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C36066254B1F1200D8AB6E /* Build configuration list for PBXNativeTarget "CurrencyConverter WatchKit App" */;
+			buildPhases = (
+				C3C36041254B1F0B00D8AB6E /* Resources */,
+				C3C36065254B1F1200D8AB6E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3C36052254B1F1100D8AB6E /* PBXTargetDependency */,
+			);
+			name = "CurrencyConverter WatchKit App";
+			productName = "CurrencyConverter WatchKit App";
+			productReference = C3C36043254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C3C3604E254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C36062254B1F1200D8AB6E /* Build configuration list for PBXNativeTarget "CurrencyConverter WatchKit Extension" */;
+			buildPhases = (
+				C3C3604B254B1F1100D8AB6E /* Sources */,
+				C3C3604C254B1F1100D8AB6E /* Frameworks */,
+				C3C3604D254B1F1100D8AB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CurrencyConverter WatchKit Extension";
+			productName = "CurrencyConverter WatchKit Extension";
+			productReference = C3C3604F254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3C36039254B1F0B00D8AB6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C3C3603E254B1F0B00D8AB6E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C3C36042254B1F0B00D8AB6E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C3C3604E254B1F1100D8AB6E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C3C3603C254B1F0B00D8AB6E /* Build configuration list for PBXProject "CurrencyConverter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3C36038254B1F0B00D8AB6E;
+			productRefGroup = C3C36040254B1F0B00D8AB6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3C3603E254B1F0B00D8AB6E /* CurrencyConverter */,
+				C3C36042254B1F0B00D8AB6E /* CurrencyConverter WatchKit App */,
+				C3C3604E254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3C3603D254B1F0B00D8AB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C36041254B1F0B00D8AB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C36049254B1F1000D8AB6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C3604D254B1F1100D8AB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C3605E254B1F1200D8AB6E /* Preview Assets.xcassets in Resources */,
+				C3C3605B254B1F1200D8AB6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3C3604B254B1F1100D8AB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C36055254B1F1100D8AB6E /* ContentView.swift in Sources */,
+				C3C36057254B1F1100D8AB6E /* CurrencyConverterApp.swift in Sources */,
+				C3C36059254B1F1100D8AB6E /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3C36046254B1F0B00D8AB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C36042254B1F0B00D8AB6E /* CurrencyConverter WatchKit App */;
+			targetProxy = C3C36045254B1F0B00D8AB6E /* PBXContainerItemProxy */;
+		};
+		C3C36052254B1F1100D8AB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3C3604E254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension */;
+			targetProxy = C3C36051254B1F1100D8AB6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3C36060254B1F1200D8AB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3C36061254B1F1200D8AB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3C36063254B1F1200D8AB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConverter WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CurrencyConverter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiarozhina.CurrencyConverter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		C3C36064254B1F1200D8AB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConverter WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CurrencyConverter WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiarozhina.CurrencyConverter.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		C3C36067254B1F1200D8AB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				IBSC_MODULE = CurrencyConverter_WatchKit_Extension;
+				INFOPLIST_FILE = "CurrencyConverter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiarozhina.CurrencyConverter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		C3C36068254B1F1200D8AB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				IBSC_MODULE = CurrencyConverter_WatchKit_Extension;
+				INFOPLIST_FILE = "CurrencyConverter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiarozhina.CurrencyConverter.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		C3C3606B254B1F1200D8AB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiarozhina.CurrencyConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C3C3606C254B1F1200D8AB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U8A899S5N;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofiarozhina.CurrencyConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3C3603C254B1F0B00D8AB6E /* Build configuration list for PBXProject "CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C36060254B1F1200D8AB6E /* Debug */,
+				C3C36061254B1F1200D8AB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C36062254B1F1200D8AB6E /* Build configuration list for PBXNativeTarget "CurrencyConverter WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C36063254B1F1200D8AB6E /* Debug */,
+				C3C36064254B1F1200D8AB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C36066254B1F1200D8AB6E /* Build configuration list for PBXNativeTarget "CurrencyConverter WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C36067254B1F1200D8AB6E /* Debug */,
+				C3C36068254B1F1200D8AB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C3606A254B1F1200D8AB6E /* Build configuration list for PBXNativeTarget "CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C3606B254B1F1200D8AB6E /* Debug */,
+				C3C3606C254B1F1200D8AB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3C36039254B1F0B00D8AB6E /* Project object */;
+}

@@ -1,13 +1,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var amount = 500.0
-    @State private var selectedCurrency = "USD"
+    @State private var amount = UserDefaults.standard.double(forKey: amountKey)
+    @State private var selectedCurrency = UserDefaults.standard.string(forKey: selectedCurrencyKey) ?? "USD"
     @State private var amountFocused = false
     
     static let currencies = ["USD", "AUD", "CAD", "CHF", "CNY", "EUR", "GBP", "HKD", "JPY", "SGD"]
-    static let selectedCurrenciesKey = "SelectedCurrencies"
     static let defaultCurrencies = ["USD", "EUR"]
+    
+    static let selectedCurrenciesKey = "SelectedCurrencies"
+    static let amountKey = "AmountKey"
+    static let selectedCurrencyKey = "SelectedCurrency"
     
     var body: some View {
         GeometryReader { geo in

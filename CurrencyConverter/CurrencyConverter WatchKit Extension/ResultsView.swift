@@ -26,7 +26,7 @@ struct ResultsView: View {
                 Text(fetchState == .fetching ? "Fetching..." : "Fetch failed")
             }
         }
-        .onAppear(perform: fetchData)
+        .onAppear(perform: appear)
         .navigationTitle("\(Int(amount)) \(baseCurrency)")
     }
     
@@ -43,6 +43,13 @@ struct ResultsView: View {
             }
         }
         fetchedCurrencies.sort { $0.symbol < $1.symbol }
+    }
+    
+    private func appear() {
+        UserDefaults.standard.set(amount, forKey: ContentView.amountKey)
+        UserDefaults.standard.set(baseCurrency, forKey: ContentView.selectedCurrencyKey)
+        
+        fetchData()
     }
     
     private func fetchData() {

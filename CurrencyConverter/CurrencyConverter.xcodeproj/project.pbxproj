@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3257C7D25558CE600F1442C /* AmountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3257C7C25558CE600F1442C /* AmountsView.swift */; };
 		C356A457255081AD0096B28C /* CurrenciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356A456255081AD0096B28C /* CurrenciesView.swift */; };
 		C356A45D255081E70096B28C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356A45C255081E70096B28C /* MainView.swift */; };
 		C356A462255085B10096B28C /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356A461255085B10096B28C /* ResultsView.swift */; };
@@ -63,6 +64,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3257C7C25558CE600F1442C /* AmountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountsView.swift; sourceTree = "<group>"; };
 		C356A456255081AD0096B28C /* CurrenciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesView.swift; sourceTree = "<group>"; };
 		C356A45C255081E70096B28C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C356A461255085B10096B28C /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				C356A456255081AD0096B28C /* CurrenciesView.swift */,
 				C356A45C255081E70096B28C /* MainView.swift */,
 				C356A461255085B10096B28C /* ResultsView.swift */,
+				C3257C7C25558CE600F1442C /* AmountsView.swift */,
 			);
 			path = "CurrencyConverter WatchKit Extension";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				C356A457255081AD0096B28C /* CurrenciesView.swift in Sources */,
 				C3C36057254B1F1100D8AB6E /* CurrencyConverterApp.swift in Sources */,
 				C356A45D255081E70096B28C /* MainView.swift in Sources */,
+				C3257C7D25558CE600F1442C /* AmountsView.swift in Sources */,
 				C3C36059254B1F1100D8AB6E /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

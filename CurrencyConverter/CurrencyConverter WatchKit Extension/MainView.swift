@@ -5,6 +5,7 @@ struct MainView: View {
         TabView {
             ContentView()
             CurrenciesView()
+            AmountsView()
         }
     }
 }

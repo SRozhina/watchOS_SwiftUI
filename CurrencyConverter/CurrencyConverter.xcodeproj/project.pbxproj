@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3257C7D25558CE600F1442C /* AmountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3257C7C25558CE600F1442C /* AmountsView.swift */; };
+		C356A457255081AD0096B28C /* CurrenciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356A456255081AD0096B28C /* CurrenciesView.swift */; };
+		C356A45D255081E70096B28C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356A45C255081E70096B28C /* MainView.swift */; };
+		C356A462255085B10096B28C /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C356A461255085B10096B28C /* ResultsView.swift */; };
 		C3C36044254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3C36043254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C3C36049254B1F1000D8AB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C36048254B1F1000D8AB6E /* Assets.xcassets */; };
 		C3C36050254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3C3604F254B1F1100D8AB6E /* CurrencyConverter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -60,6 +64,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3257C7C25558CE600F1442C /* AmountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountsView.swift; sourceTree = "<group>"; };
+		C356A456255081AD0096B28C /* CurrenciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesView.swift; sourceTree = "<group>"; };
+		C356A45C255081E70096B28C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C356A461255085B10096B28C /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		C3C3603F254B1F0B00D8AB6E /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C36043254B1F0B00D8AB6E /* CurrencyConverter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CurrencyConverter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C36048254B1F1000D8AB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +129,10 @@
 				C3C3605A254B1F1200D8AB6E /* Assets.xcassets */,
 				C3C3605F254B1F1200D8AB6E /* Info.plist */,
 				C3C3605C254B1F1200D8AB6E /* Preview Content */,
+				C356A456255081AD0096B28C /* CurrenciesView.swift */,
+				C356A45C255081E70096B28C /* MainView.swift */,
+				C356A461255085B10096B28C /* ResultsView.swift */,
+				C3257C7C25558CE600F1442C /* AmountsView.swift */,
 			);
 			path = "CurrencyConverter WatchKit Extension";
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3C36055254B1F1100D8AB6E /* ContentView.swift in Sources */,
+				C356A462255085B10096B28C /* ResultsView.swift in Sources */,
+				C356A457255081AD0096B28C /* CurrenciesView.swift in Sources */,
 				C3C36057254B1F1100D8AB6E /* CurrencyConverterApp.swift in Sources */,
+				C356A45D255081E70096B28C /* MainView.swift in Sources */,
+				C3257C7D25558CE600F1442C /* AmountsView.swift in Sources */,
 				C3C36059254B1F1100D8AB6E /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F96564D254B665C005C5F3C /* RockPaperScissorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F96564C254B665C005C5F3C /* RockPaperScissorsModel.swift */; };
+		6F965652254B66F3005C5F3C /* RockPaperScissorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F965651254B66F3005C5F3C /* RockPaperScissorsViewModel.swift */; };
 		C3C35FFB254204F500D8AB6E /* RockPaperScissors WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C3C35FFA254204F500D8AB6E /* RockPaperScissors WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C3C36000254204F600D8AB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C35FFF254204F600D8AB6E /* Assets.xcassets */; };
 		C3C36007254204F600D8AB6E /* RockPaperScissors WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3C36006254204F600D8AB6E /* RockPaperScissors WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -60,6 +62,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F96564C254B665C005C5F3C /* RockPaperScissorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsModel.swift; sourceTree = "<group>"; };
+		6F965651254B66F3005C5F3C /* RockPaperScissorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsViewModel.swift; sourceTree = "<group>"; };
 		C3C35FF6254204F400D8AB6E /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C35FFA254204F500D8AB6E /* RockPaperScissors WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RockPaperScissors WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C35FFF254204F600D8AB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +88,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F96565C254B7CA9005C5F3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3C3600B254204F600D8AB6E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F96565D254B7CBB005C5F3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F96564C254B665C005C5F3C /* RockPaperScissorsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F96565E254B7CCC005C5F3C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F965651254B66F3005C5F3C /* RockPaperScissorsViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		C3C35FEF254204F400D8AB6E = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +143,9 @@
 		C3C3600A254204F600D8AB6E /* RockPaperScissors WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C3C3600B254204F600D8AB6E /* ContentView.swift */,
+				6F96565C254B7CA9005C5F3C /* Views */,
+				6F96565D254B7CBB005C5F3C /* Models */,
+				6F96565E254B7CCC005C5F3C /* View Models */,
 				C3C3600D254204F600D8AB6E /* RockPaperScissorsApp.swift */,
 				C3C3600F254204F600D8AB6E /* ComplicationController.swift */,
 				C3C36011254204F700D8AB6E /* Assets.xcassets */,
@@ -259,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F96564D254B665C005C5F3C /* RockPaperScissorsModel.swift in Sources */,
 				C3C3600E254204F600D8AB6E /* RockPaperScissorsApp.swift in Sources */,
 				C3C3600C254204F600D8AB6E /* ContentView.swift in Sources */,
+				6F965652254B66F3005C5F3C /* RockPaperScissorsViewModel.swift in Sources */,
 				C3C36010254204F600D8AB6E /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
